@@ -1,0 +1,11 @@
+.classpath
+.settings
+.project
+.env
+/lib
+/dist
+/commands.pyc
+/eclipse
+/modules
+/tmp
+/.swp

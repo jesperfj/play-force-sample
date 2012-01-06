@@ -1,0 +1,12 @@
+# Application dependencies
+
+require:
+    - play 1.2.4
+    - force -> force 0.6
+    
+repositories:
+    - MyModules:
+        type:       local
+        artifact:   "${application.path}/../play-modules/[module]/dist/[module]-[revision].zip"
+        contains:
+            - force -> force 
